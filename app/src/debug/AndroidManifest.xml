@@ -1,0 +1,3 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <instrumentation android:name="live.pharmaradio.reponsevoice.autonome.AutonomyChecks" android:targetPackage="live.pharmaradio.reponsevoice.autonome" android:label="Contrôles autonomes sans appel" />
+</manifest>

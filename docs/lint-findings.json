@@ -1,0 +1,816 @@
+[
+  {
+    "id": "OldTargetApi",
+    "severity": "Warning",
+    "message": "Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the `android.os.Build.VERSION_CODES` javadoc for details.",
+    "locations": [
+      {
+        "file": "app/build.gradle",
+        "line": "6"
+      }
+    ]
+  },
+  {
+    "id": "PrivateApi",
+    "severity": "Warning",
+    "message": "Accessing internal APIs via reflection is not supported and may not work on all devices or in the future",
+    "locations": [
+      {
+        "file": "app/src/main/java/live/pharmaradio/reponsevoice/autonome/ShellAudioBridge.java",
+        "line": "41"
+      }
+    ]
+  },
+  {
+    "id": "PrivateApi",
+    "severity": "Warning",
+    "message": "Accessing internal APIs via reflection is not supported and may not work on all devices or in the future",
+    "locations": [
+      {
+        "file": "app/src/main/java/live/pharmaradio/reponsevoice/autonome/ShellAudioBridge.java",
+        "line": "132"
+      }
+    ]
+  },
+  {
+    "id": "PrivateApi",
+    "severity": "Warning",
+    "message": "Accessing internal APIs via reflection is not supported and may not work on all devices or in the future",
+    "locations": [
+      {
+        "file": "app/src/main/java/live/pharmaradio/reponsevoice/autonome/ShellAudioBridge.java",
+        "line": "138"
+      }
+    ]
+  },
+  {
+    "id": "PrivateApi",
+    "severity": "Warning",
+    "message": "Accessing internal APIs via reflection is not supported and may not work on all devices or in the future",
+    "locations": [
+      {
+        "file": "app/src/main/java/live/pharmaradio/reponsevoice/autonome/ShellAudioBridge.java",
+        "line": "148"
+      }
+    ]
+  },
+  {
+    "id": "PrivateApi",
+    "severity": "Warning",
+    "message": "Accessing internal APIs via reflection is not supported and may not work on all devices or in the future",
+    "locations": [
+      {
+        "file": "app/src/main/java/live/pharmaradio/reponsevoice/autonome/ShellAudioBridge.java",
+        "line": "163"
+      }
+    ]
+  },
+  {
+    "id": "PrivateApi",
+    "severity": "Warning",
+    "message": "Accessing internal APIs via reflection is not supported and may not work on all devices or in the future",
+    "locations": [
+      {
+        "file": "app/src/main/java/live/pharmaradio/reponsevoice/autonome/ShellAudioProbe.java",
+        "line": "36"
+      }
+    ]
+  },
+  {
+    "id": "GradleDependency",
+    "severity": "Warning",
+    "message": "A newer version of `compileSdk` than 35 is available: 37",
+    "locations": [
+      {
+        "file": "app/build.gradle",
+        "line": "4"
+      }
+    ]
+  },
+  {
+    "id": "GradleDependency",
+    "severity": "Warning",
+    "message": "A newer version of com.squareup.okhttp3:okhttp than 4.12.0 is available: 5.4.0",
+    "locations": [
+      {
+        "file": "app/build.gradle",
+        "line": "11"
+      }
+    ]
+  },
+  {
+    "id": "UseRequiresApi",
+    "severity": "Warning",
+    "message": "Use `@RequiresApi(35)` instead of `@TargetApi` to propagate the requirement to callers of `pdf`",
+    "locations": [
+      {
+        "file": "app/src/main/java/live/pharmaradio/reponsevoice/autonome/DossierImporter.java",
+        "line": "51"
+      }
+    ]
+  },
+  {
+    "id": "UseRequiresApi",
+    "severity": "Warning",
+    "message": "Use `@RequiresApi(33)` instead of `@TargetApi` to propagate the requirement to users of `ShellAudioBridge`",
+    "locations": [
+      {
+        "file": "app/src/main/java/live/pharmaradio/reponsevoice/autonome/ShellAudioBridge.java",
+        "line": "33"
+      }
+    ]
+  },
+  {
+    "id": "Typos",
+    "severity": "Warning",
+    "message": "\"varient\" is a common misspelling; did you mean \"variant\"?",
+    "locations": [
+      {
+        "file": "app/src/main/res/values/strings.xml",
+        "line": "6"
+      }
+    ]
+  },
+  {
+    "id": "TrustAllX509TrustManager",
+    "severity": "Warning",
+    "message": "`checkServerTrusted` is empty, which could cause insecure network traffic due to trusting arbitrary TLS/SSL certificates presented by peers",
+    "locations": [
+      {
+        "file": "third-party/bcpkix-jdk15to18-1.81.jar",
+        "line": null
+      }
+    ]
+  },
+  {
+    "id": "TrustAllX509TrustManager",
+    "severity": "Warning",
+    "message": "`checkClientTrusted` is empty, which could cause insecure network traffic due to trusting arbitrary TLS/SSL certificates presented by peers",
+    "locations": [
+      {
+        "file": "third-party/classes.jar",
+        "line": null
+      }
+    ]
+  },
+  {
+    "id": "TrustAllX509TrustManager",
+    "severity": "Warning",
+    "message": "`checkServerTrusted` is empty, which could cause insecure network traffic due to trusting arbitrary TLS/SSL certificates presented by peers",
+    "locations": [
+      {
+        "file": "third-party/classes.jar",
+        "line": null
+      }
+    ]
+  },
+  {
+    "id": "DataExtractionRules",
+    "severity": "Warning",
+    "message": "The attribute `android:allowBackup` is deprecated from Android 12 and may be removed in future versions. Consider adding the attribute `android:dataExtractionRules` specifying an `@xml` resource which configures backups and device transfers on Android 12 and higher.",
+    "locations": [
+      {
+        "file": "app/src/main/AndroidManifest.xml",
+        "line": "15"
+      }
+    ]
+  },
+  {
+    "id": "ObsoleteSdkInt",
+    "severity": "Warning",
+    "message": "Unnecessary; `SDK_INT` is always >= 33",
+    "locations": [
+      {
+        "file": "app/src/main/java/live/pharmaradio/reponsevoice/autonome/CallBridgeService.java",
+        "line": "31"
+      }
+    ]
+  },
+  {
+    "id": "ObsoleteSdkInt",
+    "severity": "Warning",
+    "message": "Unnecessary; `SDK_INT` is never < 33",
+    "locations": [
+      {
+        "file": "app/src/main/java/live/pharmaradio/reponsevoice/autonome/CallBridgeService.java",
+        "line": "87"
+      }
+    ]
+  },
+  {
+    "id": "ObsoleteSdkInt",
+    "severity": "Warning",
+    "message": "Unnecessary; `SDK_INT` is always >= 33",
+    "locations": [
+      {
+        "file": "app/src/main/java/live/pharmaradio/reponsevoice/autonome/CallIdentity.java",
+        "line": "22"
+      }
+    ]
+  },
+  {
+    "id": "ObsoleteSdkInt",
+    "severity": "Warning",
+    "message": "Unnecessary; `SDK_INT` is always >= 33",
+    "locations": [
+      {
+        "file": "app/src/main/java/live/pharmaradio/reponsevoice/autonome/CallNotices.java",
+        "line": "13"
+      }
+    ]
+  },
+  {
+    "id": "ObsoleteSdkInt",
+    "severity": "Warning",
+    "message": "Unnecessary; `SDK_INT` is always >= 33",
+    "locations": [
+      {
+        "file": "app/src/main/java/live/pharmaradio/reponsevoice/autonome/MainActivity.java",
+        "line": "38"
+      }
+    ]
+  },
+  {
+    "id": "ObsoleteSdkInt",
+    "severity": "Warning",
+    "message": "Unnecessary; `SDK_INT` is always >= 33",
+    "locations": [
+      {
+        "file": "app/src/main/java/live/pharmaradio/reponsevoice/autonome/MainActivity.java",
+        "line": "61"
+      }
+    ]
+  },
+  {
+    "id": "ObsoleteSdkInt",
+    "severity": "Warning",
+    "message": "Unnecessary; `SDK_INT` is always >= 33",
+    "locations": [
+      {
+        "file": "app/src/main/java/live/pharmaradio/reponsevoice/autonome/PrivateActivity.java",
+        "line": "32"
+      }
+    ]
+  },
+  {
+    "id": "ObsoleteSdkInt",
+    "severity": "Warning",
+    "message": "Unnecessary; `SDK_INT` is always >= 33",
+    "locations": [
+      {
+        "file": "app/src/main/java/live/pharmaradio/reponsevoice/autonome/ShellAudioBridge.java",
+        "line": "33"
+      }
+    ]
+  },
+  {
+    "id": "ObsoleteSdkInt",
+    "severity": "Warning",
+    "message": "This folder configuration (`v27`) is unnecessary; `minSdkVersion` is 33. Merge all the resources in this folder into `values`.",
+    "locations": [
+      {
+        "file": "app/src/main/res/values-v27",
+        "line": null
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "Do not concatenate text displayed with `setText`. Use resource string with placeholders.",
+    "locations": [
+      {
+        "file": "app/src/main/java/live/pharmaradio/reponsevoice/autonome/AboutActivity.java",
+        "line": "17"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "app/src/main/java/live/pharmaradio/reponsevoice/autonome/AgentShareActivity.java",
+        "line": "71"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "app/src/main/java/live/pharmaradio/reponsevoice/autonome/CallMenuActivity.java",
+        "line": "36"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "app/src/main/java/live/pharmaradio/reponsevoice/autonome/CallMenuActivity.java",
+        "line": "40"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "app/src/main/java/live/pharmaradio/reponsevoice/autonome/CallMenuActivity.java",
+        "line": "41"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "app/src/main/java/live/pharmaradio/reponsevoice/autonome/MissionDossierActivity.java",
+        "line": "77"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "app/src/main/java/live/pharmaradio/reponsevoice/autonome/MissionLibraryActivity.java",
+        "line": "31"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "app/src/main/java/live/pharmaradio/reponsevoice/autonome/MissionLibraryActivity.java",
+        "line": "34"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "app/src/main/java/live/pharmaradio/reponsevoice/autonome/MissionLibraryActivity.java",
+        "line": "46"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "app/src/main/java/live/pharmaradio/reponsevoice/autonome/MissionLibraryActivity.java",
+        "line": "49"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "app/src/main/java/live/pharmaradio/reponsevoice/autonome/ModelsActivity.java",
+        "line": "35"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "Do not concatenate text displayed with `setText`. Use resource string with placeholders.",
+    "locations": [
+      {
+        "file": "app/src/main/java/live/pharmaradio/reponsevoice/autonome/ModelsActivity.java",
+        "line": "38"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "app/src/main/java/live/pharmaradio/reponsevoice/autonome/ModelsActivity.java",
+        "line": "38"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "app/src/main/java/live/pharmaradio/reponsevoice/autonome/ModelsActivity.java",
+        "line": "38"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "Do not concatenate text displayed with `setText`. Use resource string with placeholders.",
+    "locations": [
+      {
+        "file": "app/src/main/java/live/pharmaradio/reponsevoice/autonome/ModelsActivity.java",
+        "line": "41"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "app/src/main/java/live/pharmaradio/reponsevoice/autonome/OutgoingCallActivity.java",
+        "line": "55"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "app/src/main/java/live/pharmaradio/reponsevoice/autonome/OutgoingCallActivity.java",
+        "line": "74"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "app/src/main/java/live/pharmaradio/reponsevoice/autonome/OutgoingCallActivity.java",
+        "line": "77"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "app/src/main/java/live/pharmaradio/reponsevoice/autonome/OutgoingCallActivity.java",
+        "line": "105"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "app/src/main/java/live/pharmaradio/reponsevoice/autonome/OutgoingCallActivity.java",
+        "line": "115"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "app/src/main/java/live/pharmaradio/reponsevoice/autonome/OutgoingCallActivity.java",
+        "line": "126"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "app/src/main/java/live/pharmaradio/reponsevoice/autonome/OutgoingCallActivity.java",
+        "line": "140"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "app/src/main/java/live/pharmaradio/reponsevoice/autonome/OutgoingCallActivity.java",
+        "line": "160"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "app/src/main/java/live/pharmaradio/reponsevoice/autonome/OutgoingCallActivity.java",
+        "line": "172"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "app/src/main/java/live/pharmaradio/reponsevoice/autonome/OutgoingCallActivity.java",
+        "line": "180"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "app/src/main/java/live/pharmaradio/reponsevoice/autonome/OutgoingCallActivity.java",
+        "line": "184"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "app/src/main/java/live/pharmaradio/reponsevoice/autonome/OutgoingCallActivity.java",
+        "line": "200"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "app/src/main/java/live/pharmaradio/reponsevoice/autonome/OutgoingCallActivity.java",
+        "line": "209"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "app/src/main/java/live/pharmaradio/reponsevoice/autonome/OutgoingCallActivity.java",
+        "line": "236"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "app/src/main/java/live/pharmaradio/reponsevoice/autonome/OutgoingCallActivity.java",
+        "line": "240"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "Do not concatenate text displayed with `setText`. Use resource string with placeholders.",
+    "locations": [
+      {
+        "file": "app/src/main/java/live/pharmaradio/reponsevoice/autonome/OutgoingCallActivity.java",
+        "line": "245"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "app/src/main/java/live/pharmaradio/reponsevoice/autonome/OutgoingCallActivity.java",
+        "line": "245"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "app/src/main/java/live/pharmaradio/reponsevoice/autonome/OutgoingCallActivity.java",
+        "line": "245"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "app/src/main/java/live/pharmaradio/reponsevoice/autonome/OutgoingCallActivity.java",
+        "line": "273"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "app/src/main/java/live/pharmaradio/reponsevoice/autonome/OutgoingCallActivity.java",
+        "line": "277"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "app/src/main/java/live/pharmaradio/reponsevoice/autonome/OutgoingCallActivity.java",
+        "line": "286"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "app/src/main/java/live/pharmaradio/reponsevoice/autonome/OutgoingCallActivity.java",
+        "line": "295"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "app/src/main/java/live/pharmaradio/reponsevoice/autonome/OutgoingCallActivity.java",
+        "line": "356"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "Do not concatenate text displayed with `setText`. Use resource string with placeholders.",
+    "locations": [
+      {
+        "file": "app/src/main/java/live/pharmaradio/reponsevoice/autonome/OwnerProfileActivity.java",
+        "line": "23"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "Do not concatenate text displayed with `setText`. Use resource string with placeholders.",
+    "locations": [
+      {
+        "file": "app/src/main/java/live/pharmaradio/reponsevoice/autonome/OwnerProfileActivity.java",
+        "line": "24"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "app/src/main/java/live/pharmaradio/reponsevoice/autonome/OwnerProfileActivity.java",
+        "line": "43"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "app/src/main/java/live/pharmaradio/reponsevoice/autonome/ProfilesActivity.java",
+        "line": "32"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "app/src/main/java/live/pharmaradio/reponsevoice/autonome/ProfilesActivity.java",
+        "line": "46"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "app/src/main/java/live/pharmaradio/reponsevoice/autonome/ProfilesActivity.java",
+        "line": "52"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "app/src/main/java/live/pharmaradio/reponsevoice/autonome/ProfilesActivity.java",
+        "line": "60"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "app/src/main/java/live/pharmaradio/reponsevoice/autonome/ProfilesActivity.java",
+        "line": "68"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "app/src/main/java/live/pharmaradio/reponsevoice/autonome/ProfilesActivity.java",
+        "line": "77"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "app/src/main/java/live/pharmaradio/reponsevoice/autonome/SettingsActivity.java",
+        "line": "16"
+      }
+    ]
+  },
+  {
+    "id": "SetTextI18n",
+    "severity": "Warning",
+    "message": "String literal in `setText` can not be translated. Use Android resources instead.",
+    "locations": [
+      {
+        "file": "app/src/main/java/live/pharmaradio/reponsevoice/autonome/Ui.java",
+        "line": "116"
+      }
+    ]
+  }
+]
