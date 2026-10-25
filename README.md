@@ -1,5 +1,9 @@
 # Appel AI
 
+[![Source checks](https://github.com/iasibadr/appel-ai/actions/workflows/checks.yml/badge.svg)](https://github.com/iasibadr/appel-ai/actions/workflows/checks.yml) · [Releases](https://github.com/iasibadr/appel-ai/releases) · [Compatibility](docs/COMPATIBILITY.md) · [Roadmap](docs/ROADMAP.md) · [Support](SUPPORT.md)
+
+Build status covers the configured checks, not real-device audio or a security audit.
+
 **An Android assistant for consented cellular phone calls.**
 Created by **Charadi Badr** · Android native Java · MIT application code.
 
