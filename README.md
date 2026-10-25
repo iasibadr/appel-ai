@@ -13,7 +13,7 @@ The supplied APK is version **0.16**. Source and APK provenance, hashes and limi
 
 ## Download
 
-[Download the supplied APK](downloads/appel-ai-0.16.apk) · [SHA-256](downloads/SHA256SUMS) · [Release notes](docs/RELEASE_NOTES.md)
+[Download the supplied APK](https://github.com/iasibadr/appel-ai/releases/download/v0.16/appel-ai-0.16.apk) · [SHA-256](downloads/SHA256SUMS) · [Release notes](docs/RELEASE_NOTES.md)
 
 The APK is the original supplied build. It is not rebuilt or re-signed during publication. It uses an Android development certificate; read the signing limitations before installing.
 
